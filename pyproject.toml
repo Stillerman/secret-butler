@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "secretbutler"
-version = "0.1.1"
+version = "0.1.2"
 description = "A local MCP server that manages API keys with user approval"
 readme = "README.md"
 requires-python = ">=3.8"
@@ -29,7 +29,6 @@ classifiers = [
 ]
 dependencies = [
     "fastmcp",
-    "rumps",
     "toml",
 ]
 
